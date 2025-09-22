@@ -1,53 +1,22 @@
-#Ignore compiled files
-*.exe
-*.out
-*.obj
-
-# Ignore temporary files
-*.log
-*.tmp
-*.o
-
-# Ignore VS Code settings folder
+# VS Code settings
 .vscode/
-# Prerequisites
-*.d
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# OS generated files
+.DS_Store
+Thumbs.db
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
+# Build / Binary files
 *.exe
 *.out
-*.app
+*.o
+*.obj
+*.class
 
-# debug information files
-*.dwo
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
