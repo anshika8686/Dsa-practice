@@ -49,6 +49,10 @@ vector<vector<int>> generateoptimal(int numRows)
 
 int main(){
   Solution Sol;
-  vector<vector<int>>matrix={{1,2,3},{}};
+  int numRows=5;
+  vector<vector<int>> ans=generateoptimal(numRows);
+  for(auto &it:ans){
+    cout<< 
+  }
 
 }
